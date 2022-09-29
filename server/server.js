@@ -5,8 +5,6 @@ const connectDB = require('./config/db');
 const { graphqlHTTP } = require('express-graphql');
 const schema = require('./schema/schema');
 
-// configure environment variables
-
 // set port
 const port = process.env.PORT || 5000;
 
