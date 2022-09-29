@@ -1,7 +1,7 @@
 {
   "name": "books-app-graphql",
   "version": "1.0.0",
-  "description": "Books App built with GraphQL",
+  "description": "Books App built MERN Stack with GraphQL",
   "main": "server/server.js",
   "scripts": {
     "client-install": "npm install --prefex client",
