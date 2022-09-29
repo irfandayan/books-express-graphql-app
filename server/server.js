@@ -7,14 +7,14 @@ const schema = require('./schema/schema');
 
 // configure environment variables
 
-// call to connect database
-connectDB();
-
 // set port
 const port = process.env.PORT || 5000;
 
 // create express object
 const app = express();
+
+// call to connect database
+connectDB();
 
 // allow cross-origin requests
 app.use(cors());
